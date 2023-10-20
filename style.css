@@ -1,0 +1,85 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(MicrosoftTeams-image\ \(13\).png);
+}
+
+.container {
+    background-color: #fff;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 400px;
+    height: 600px;
+    left: 680px;
+    top: 180px;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold; /* Deixa o título em negrito */
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 16px; /* Tamanho uniforme para todos os botões */
+    background-color: #123861;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#estoque {
+    margin-top: 20px;
+    max-height: 300px; /* Altura máxima para a barra de rolagem */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical se necessário */
+}
+
+div > div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column; /* Itens abaixo do outro */
+}
+
+label {
+    font-weight: bold; /* Deixa os rótulos em negrito */
+}
+
+button {
+    margin: 6px;
+    padding: 8px 16px; /* Tamanho uniforme para todos os botões */
+    background-color: #18295a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a96e2;
+}
+
+
+.logo{
+    position: relative;
+    top: -820px;
+    left: -700px;
+}
